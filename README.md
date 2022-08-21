@@ -1,2 +1,2 @@
 # AppleSamples
-Sample code provide by apple
+Sample code provide by Apple
