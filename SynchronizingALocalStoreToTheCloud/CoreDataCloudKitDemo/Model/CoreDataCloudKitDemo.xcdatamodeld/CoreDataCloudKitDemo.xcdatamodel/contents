@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19197" systemVersion="21A308" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Attachment" representedClassName="Attachment" syncable="YES" codeGenerationType="class">
         <attribute name="thumbnail" optional="YES" transient="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" customClassName="UIKit.UIImage"/>
         <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
@@ -25,10 +25,4 @@
         <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <relationship name="posts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Post" inverseName="tags" inverseEntity="Post"/>
     </entity>
-    <elements>
-        <element name="Attachment" positionX="151.33984375" positionY="86.921875" width="128" height="89"/>
-        <element name="ImageData" positionX="312.91015625" positionY="101.94921875" width="128" height="73"/>
-        <element name="Post" positionX="-29.0703125" positionY="143.5" width="128" height="104"/>
-        <element name="Tag" positionX="154.265625" positionY="200.84765625" width="128" height="104"/>
-    </elements>
 </model>
